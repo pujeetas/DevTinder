@@ -2,13 +2,15 @@
   "name": "devtinder",
   "version": "1.0.0",
   "description": "tinder for devs",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pujeeta Singh",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.19.4"
   }
 }
